@@ -24,13 +24,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 ## Inscreen Fingerprint HAL
 TARGET_HAVE_FOD := true
 
-## Inherit from beyond2lte device
-$(call inherit-product, device/samsung/beyond2lte/device.mk)
+## Inherit from d1 device
+$(call inherit-product, device/samsung/d1/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_HEIGHT := 3040
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2280
+TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
@@ -39,10 +39,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond2lte
-PRODUCT_DEVICE := beyond2lte
+PRODUCT_NAME := lineage_d1
+PRODUCT_DEVICE := d1
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G975F
+PRODUCT_MODEL := SM-N970F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

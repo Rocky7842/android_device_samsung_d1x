@@ -41,5 +41,5 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -326 V 142 H 0 V 0 Z @right</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -36 V 90 H 36 V 0 H 0 Z</string>
 </resources>
