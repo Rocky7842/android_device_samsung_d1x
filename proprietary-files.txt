@@ -126,7 +126,10 @@ vendor/firmware/fimc_is_rta.bin
 ## RIL
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
--vendor/lib64/libsec-ril.so
+
+## RIL - from d1 - N970FXXS7FUI7
+-vendor/lib64/libsec-ril.so|1d719a5d8d3970495e5ddb2bce1801bee50f0839
+-vendor/lib64/libsec-ril-dsds.so|a78c6b9ce735d9e89cac241dcc98b5c2b368645f
 
 ## Sensors
 -vendor/bin/hw/lhd
