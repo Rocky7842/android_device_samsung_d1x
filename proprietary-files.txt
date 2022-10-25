@@ -43,6 +43,11 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 -vendor/lib64/hw/camera.exynos9825.so|63a55d3796921c03c331a63fa57cd17987442677
 -vendor/lib64/libexynoscamera3.so|dba359984d33b5f5c5be532aa28cb4f029773c19
 
+## Camera Firmware
+vendor/firmware/fimc_is_fw_mcu.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+
 ## Codecs
 vendor/etc/media_codecs_performance.xml
 
@@ -72,7 +77,6 @@ vendor/firmware/cs40l25a_clab.wmfw
 vendor/firmware/cs40l25a_exc.bin
 vendor/firmware/dual_cal_wide_swide.bin
 vendor/firmware/dual_cal_wide_tele.bin
-vendor/firmware/fimc_is_fw_mcu.bin
 vendor/firmware/fmsb.bin
 vendor/firmware/listenbackeffect.bin
 vendor/firmware/nvram.txt_1rh_es32_b0
@@ -118,10 +122,6 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc
 
 ## NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
-
-## OMX Firmware
-vendor/firmware/fimc_is_lib.bin
-vendor/firmware/fimc_is_rta.bin
 
 ## RIL
 vendor/etc/plmn_se13.bin
