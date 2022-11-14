@@ -1,0 +1,22 @@
+[
+  {
+    "repository" : "Rocky7842/android_device_samsung_exynos9820-common",
+    "target_path": "device/samsung/exynos9820-common"
+    "branch"     : "lineage-19.1"
+  },
+  {
+    "repository" : "Rocky7842/android_kernel_samsung_exynos9820",
+    "target_path": "device/kernel/exynos9820"
+    "branch"     : "lineage-19.1"
+  },
+  {
+    "repository" : "crdroidandroid/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch"     : "12.1"
+  },
+  {
+    "repository" : "crdroidandroid/android_device_samsung_slsi_sepolicy",
+    "target_path": "device/samsung_slsi/sepolicy",
+    "branch"     : "12.1"
+  }
+]
