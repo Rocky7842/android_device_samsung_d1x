@@ -43,8 +43,8 @@ EXTRA_UDFPS_ANIMATIONS := true
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_d1x
 PRODUCT_DEVICE := d1x
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy Note10 5G
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
