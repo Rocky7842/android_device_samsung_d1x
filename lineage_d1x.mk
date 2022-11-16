@@ -35,18 +35,26 @@ $(call inherit-product, device/samsung/d1x/device.mk)
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
-## Inherit some common Lineage stuff
+## Inherit some common crDroid stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+## Features
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_d1x
 PRODUCT_DEVICE := d1x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-N971N
+PRODUCT_MODEL := Galaxy Note10 5G
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
