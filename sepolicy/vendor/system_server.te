@@ -1,0 +1,2 @@
+# Smart Charge
+allow system_server sysfs_battery_writable:file rw_file_perms;

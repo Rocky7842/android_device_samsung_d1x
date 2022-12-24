@@ -33,5 +33,8 @@ TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos9820-d1x_defconfig
 
+## SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
