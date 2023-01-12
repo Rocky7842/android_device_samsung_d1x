@@ -18,7 +18,7 @@ INSTALLED_RADIOIMAGE_TARGET += \
     $(DEVICE_PATH)/firmware/models \
     $(DEVICE_PATH)/firmware/version_SM-N971N \
     $(DEVICE_PATH)/firmware/cm.bin_SM-N971N \
-    $(DEVICE_PATH)/firmware/dqmdbg.bin_SM-N971N \
+    $(DEVICE_PATH)/firmware/dqmdbg.img_SM-N971N \
     $(DEVICE_PATH)/firmware/keystorage.bin_SM-N971N \
     $(DEVICE_PATH)/firmware/modem.bin_SM-N971N \
     $(DEVICE_PATH)/firmware/modem_5g.bin_SM-N971N \
