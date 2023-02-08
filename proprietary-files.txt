@@ -127,8 +127,8 @@ vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
 
-## RIL - from d2x - N976BXXS7FUI7
--vendor/lib64/libsec-ril.so|84f9da107f894cf6ce4bbfdb9f88803a9af0fb3f
+## RIL - from d1x - N971NKSU2FUH7
+-vendor/lib64/libsec-ril.so|02797107cbee6d3109a8b9a9c46785a87101fb9a
 
 ## Sensors
 -vendor/bin/hw/lhd
