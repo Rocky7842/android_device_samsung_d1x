@@ -31,7 +31,7 @@ TARGET_SCREEN_DENSITY := 420
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9820-d1x_defconfig
+TARGET_KERNEL_CONFIG := exynos9820-d1xks_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
