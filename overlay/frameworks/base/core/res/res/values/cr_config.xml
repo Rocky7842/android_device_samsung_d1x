@@ -20,12 +20,6 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds.  Do not translate. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Smart charging -->
-    <bool name="config_smartChargingAvailable">true</bool>
-    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/batt_slate_mode</string>
-    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
-    <string name="config_smartChargingResumeValue" translatable="false">0</string>
-
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
 
