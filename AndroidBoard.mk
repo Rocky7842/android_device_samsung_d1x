@@ -15,4 +15,4 @@
 #
 
 ## Firmware
--include $(DEVICE_PATH)/firmware.mk
+-include vendor/samsung/firmware/d1x/firmware.mk
