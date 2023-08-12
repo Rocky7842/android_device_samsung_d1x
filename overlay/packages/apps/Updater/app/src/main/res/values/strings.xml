@@ -12,13 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <bool name="config_hideRecoveryUpdate">true</bool>
-    
-        <!--
-        Optional placeholders replaced at runtime:
-          {device} - Device name
-          {type} - Build type
-    -->
     <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/Rocky7842/OTA_provider/main/LineageOS/20.0/d1x.json</string>
     <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/Rocky7842/OTA_provider/main/LineageOS/20.0/changelog_d1x.txt</string>
 </resources>
