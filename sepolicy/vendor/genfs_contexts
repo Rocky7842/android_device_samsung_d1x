@@ -1,0 +1,2 @@
+## For CPUinfo
+genfscon sysfs /class/thermal/thermal_zone0/temp                                                                    u:object_r:sysfs_thermal:s0
