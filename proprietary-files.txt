@@ -103,10 +103,6 @@ vendor/etc/floating_feature.xml
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
 
-## RIL - from d1 - N970FXXS7FUI7
--vendor/lib64/libsec-ril.so|1d719a5d8d3970495e5ddb2bce1801bee50f0839
--vendor/lib64/libsec-ril-dsds.so|a78c6b9ce735d9e89cac241dcc98b5c2b368645f
-
 ## Sensors
 -vendor/bin/hw/lhd
 vendor/etc/sensor/lhd.conf
