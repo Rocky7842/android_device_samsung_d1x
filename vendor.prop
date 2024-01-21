@@ -1,5 +1,10 @@
 ## Bluetooth
 bluetooth.device.default_name=Galaxy Note10
 
+## Fingerprint
+ro.vendor.fingerprint.type=udfps
+ro.vendor.fingerprint.sensor_location=540|1750|112
+ro.vendor.fingerprint.force_calibrate=true
+
 ## RIL
 ro.telephony.default_network=9,9
