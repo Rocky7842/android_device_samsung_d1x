@@ -17,9 +17,9 @@
 include device/samsung/exynos9820-common/BoardConfig9825.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/d1/BoardConfigVendor.mk
+include vendor/samsung/d1x/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/d1
+DEVICE_PATH := device/samsung/d1x
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -28,7 +28,7 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 TARGET_SCREEN_DENSITY := 420
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9820-d1_defconfig
+TARGET_KERNEL_CONFIG := exynos9820-d1x_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

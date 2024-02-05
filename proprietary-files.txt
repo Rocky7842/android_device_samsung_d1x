@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version N970FXXS8HWA1, unless pinned
+# Proprietary files - from Samsung package version N971NKSU2HWA2, unless pinned
 
 ## Audio - Dolby Atmos
 vendor/etc/dolby/dax-default.xml
@@ -24,9 +24,9 @@ vendor/firmware/bcm4375B1_murata.hcd
 vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
-## Camera - from d1 - N970FXXS7GVB1
+## Camera - from d1x - N971NKSU2GULF
 -vendor/lib64/hw/camera.exynos9825.so|63a55d3796921c03c331a63fa57cd17987442677
--vendor/lib64/libexynoscamera3.so|dba359984d33b5f5c5be532aa28cb4f029773c19
+-vendor/lib64/libexynoscamera3.so|3a4fed71f0b1488303a16fa2b35be67d620153cd
 
 ## Camera Firmware
 vendor/firmware/fimc_is_fw_mcu.bin

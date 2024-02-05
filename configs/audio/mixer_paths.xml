@@ -4018,6 +4018,21 @@
 		<ctl name="IN4R Digital Volume" value="131" />
 	</path>
 
+	<!-- Karaoke Listenback MIC paths -->
+	<path name="gain-listenback-mic">
+		<ctl name="IN3R Digital Volume" value="116" />
+	</path>
+
+	<path name="gain-listenback-usb-headset-mic">
+	</path>
+
+	<path name="gain-listenback-bt-sco-headset-in">
+	</path>
+
+	<path name="gain-listenback-headphone-mic">
+		<ctl name="IN3R Digital Volume" value="116" />
+	</path>
+
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
 		<path name="gain-media-mic" />
@@ -4900,15 +4915,15 @@
 
 	<!-- echo(rms) test input volume -->
 	<path name="gain-echo_test-mic">
-		<ctl name="IN3R Digital Volume" value="135" />
+		<ctl name="IN3R Digital Volume" value="137" />
 	</path>
 
 	<path name="gain-echo_test-2nd-mic">
-		<ctl name="IN4R Digital Volume" value="129" />
+		<ctl name="IN4R Digital Volume" value="127" />
 	</path>
 
 	<path name="gain-echo_test-3rd-mic">
-		<ctl name="IN1R Digital Volume" value="165" />
+		<ctl name="IN1R Digital Volume" value="150" />
 	</path>
 
 	<path name="gain-echo_test-dualmic">
@@ -4937,4 +4952,3 @@
 		<ctl name="IN4R Digital Volume" value="130" />
 	</path>
 </mixer>
-

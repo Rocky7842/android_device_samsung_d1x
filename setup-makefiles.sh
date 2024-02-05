@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=d1
+export DEVICE=d1x
 export DEVICE_COMMON=exynos9820-common
 export VENDOR=samsung
 
