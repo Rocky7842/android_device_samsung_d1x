@@ -25,4 +25,10 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Whether device has SFC charging support -->
+    <bool name="config_hasSfcCharger">true</bool>
+
+    <!-- Whether device has AFC charging support -->
+    <bool name="config_hasAfcCharger">true</bool>
 </resources>
