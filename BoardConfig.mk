@@ -32,3 +32,6 @@ TARGET_KERNEL_CONFIG := exynos9820-d1x_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+## SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
