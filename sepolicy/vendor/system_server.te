@@ -1,0 +1,2 @@
+# Fast charging info
+allow system_server sysfs_battery:file r_file_perms;
