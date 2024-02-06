@@ -51,3 +51,10 @@ PRODUCT_MODEL := SM-N971N
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=d1xks \
+    PRIVATE_BUILD_DESC="d1xks-user 11 RP1A.200720.012 N971NKSU2FUJ1 release-keys"
+
+BUILD_FINGERPRINT := samsung/d1xks/d1x:11/RP1A.200720.012/N971NKSU2FUJ1:user/release-keys
