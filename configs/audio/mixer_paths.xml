@@ -1039,71 +1039,51 @@
 	<path name="communication-handset">
 		<path name="voip-rxse" />
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="9" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dual-speaker">
 		<path name="voip-rxse" />
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-gaming-dual-speaker">
 		<path name="voip-rxse" />
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="131" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dex-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dex-dual-speaker">
 		<path name="voip-rxse" />
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-tv-speaker">
 		<path name="voip-rxse" />
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="4" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-tv-dual-speaker">
 		<path name="voip-rxse" />
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="4" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-bt-sco-headset">
 		<path name="voip-rxse" />
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="7" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-usb-headset">
 		<path name="voip-rxse" />
 		<path name="media-usb-headset" />
-		<ctl name="ABOX Speech Param" value="111" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- samsung voip fmc playback -->
