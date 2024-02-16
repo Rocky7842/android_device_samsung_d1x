@@ -4028,9 +4028,9 @@
 	</path>
 
 	<path name="gain-camcorder-multi-mic">
-		<ctl name="IN3R Digital Volume" value="116" />
-		<ctl name="IN4R Digital Volume" value="116" />
-		<ctl name="IN1R Digital Volume" value="116" />
+		<ctl name="IN3R Digital Volume" value="164" />
+		<ctl name="IN4R Digital Volume" value="164" />
+		<ctl name="IN1R Digital Volume" value="164" />
 	</path>
 
 	<path name="gain-camcorder-headphone-mic">
