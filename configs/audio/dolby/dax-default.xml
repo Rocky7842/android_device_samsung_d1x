@@ -1949,40 +1949,40 @@
   <tuning name="speaker" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="-256" gain_right="-259"/>
-        <band_optimizer frequency="141" gain_left="-158" gain_right="-158"/>
-        <band_optimizer frequency="234" gain_left="-91" gain_right="-89"/>
-        <band_optimizer frequency="328" gain_left="-43" gain_right="-43"/>
-        <band_optimizer frequency="469" gain_left="-19" gain_right="-22"/>
-        <band_optimizer frequency="656" gain_left="-16" gain_right="-14"/>
-        <band_optimizer frequency="844" gain_left="-8" gain_right="-6"/>
-        <band_optimizer frequency="1031" gain_left="-11" gain_right="-1"/>
-        <band_optimizer frequency="1313" gain_left="-19" gain_right="-16"/>
-        <band_optimizer frequency="1688" gain_left="-17" gain_right="-14"/>
+        <band_optimizer frequency="47" gain_left="-256" gain_right="120"/>
+        <band_optimizer frequency="181" gain_left="-70" gain_right="100"/>
+        <band_optimizer frequency="257" gain_left="-91" gain_right="180"/>
+        <band_optimizer frequency="328" gain_left="-43" gain_right="120"/>
+        <band_optimizer frequency="469" gain_left="-19" gain_right="70"/>
+        <band_optimizer frequency="532" gain_left="-18" gain_right="50"/>
+        <band_optimizer frequency="656" gain_left="-16" gain_right="50"/>
+        <band_optimizer frequency="844" gain_left="-8" gain_right="-56"/>
+        <band_optimizer frequency="1031" gain_left="-11" gain_right="-100"/>
+        <band_optimizer frequency="1313" gain_left="-19" gain_right="-110"/>
+        <band_optimizer frequency="1688" gain_left="-17" gain_right="-60"/>
         <band_optimizer frequency="2250" gain_left="-17" gain_right="-17"/>
-        <band_optimizer frequency="3000" gain_left="-19" gain_right="-16"/>
-        <band_optimizer frequency="3750" gain_left="-16" gain_right="-16"/>
-        <band_optimizer frequency="4688" gain_left="12" gain_right="11"/>
+        <band_optimizer frequency="3750" gain_left="-16" gain_right="-46"/>
+        <band_optimizer frequency="4688" gain_left="12" gain_right="-2"/>
         <band_optimizer frequency="5813" gain_left="11" gain_right="12"/>
         <band_optimizer frequency="7125" gain_left="12" gain_right="14"/>
-        <band_optimizer frequency="9000" gain_left="8" gain_right="12"/>
+        <band_optimizer frequency="9000" gain_left="8" gain_right="0"/>
         <band_optimizer frequency="11250" gain_left="4" gain_right="6"/>
         <band_optimizer frequency="13875" gain_left="1" gain_right="4"/>
         <band_optimizer frequency="19688" gain_left="0" gain_right="-1"/>
       </audio-optimizer-bands>
       <regulator-tuning>
         <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false" />
-        <band_regulator frequency="141" threshold_low="-192" threshold_high="0" isolated_band="false" />
-        <band_regulator frequency="234" threshold_low="-192" threshold_high="0" isolated_band="false" />
+        <band_regulator frequency="181" threshold_low="-192" threshold_high="0" isolated_band="false" />
+        <band_regulator frequency="257" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="328" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="469" threshold_low="-192" threshold_high="0" isolated_band="false" />
+        <band_regulator frequency="532" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="656" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="844" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="1031" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="1313" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="1688" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="2250" threshold_low="-192" threshold_high="0" isolated_band="false" />
-        <band_regulator frequency="3000" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="3750" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="4688" threshold_low="-192" threshold_high="0" isolated_band="false" />
         <band_regulator frequency="5813" threshold_low="-192" threshold_high="0" isolated_band="false" />
