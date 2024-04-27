@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version N971NKSU2HWA2, unless pinned
+# Proprietary files - from Samsung package version N971NKSU2HWH5, unless pinned
 
 ## Audio - Dolby Atmos
 -vendor/lib/soundfx/libswdap.so
