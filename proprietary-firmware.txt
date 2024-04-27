@@ -1,4 +1,4 @@
-# Firmware for model SM-N971N - from Samsung package version N971NKSU2HWA2
+# Firmware for model SM-N971N - from Samsung package version N971NKSU2HWH5
 
 cm.bin_SM-N971N
 dqmdbg.img_SM-N971N
