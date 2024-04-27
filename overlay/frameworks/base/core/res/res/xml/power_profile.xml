@@ -142,8 +142,7 @@
     </array>
     <item name="cpu.suspend">7.2</item>
     <item name="cpu.idle">27</item>
-    <item name="battery.capacity">3400</item>
-    <item name="battery.typical.capacity">3500</item>
+    <item name="battery.capacity">3500</item>
     <item name="wifi.controller.idle">1</item>
     <item name="wifi.controller.rx">65</item>
     <item name="wifi.controller.tx">265</item>
