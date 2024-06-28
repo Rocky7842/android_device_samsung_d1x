@@ -16,6 +16,7 @@ function blob_fixup() {
             mv "${2}".patched "${2}"
             ;;
         vendor/lib*/sensors.*.so)
+            "${PATCHELF}" --remove-needed libhidltransport.so "${2}"
             "${PATCHELF}" --replace-needed libutils.so libutils-v32.so "${2}"
             sed -i 's/_ZN7android6Thread3runEPKcim/_ZN7utils326Thread3runEPKcim/g' "${2}"
             ;;
