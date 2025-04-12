@@ -47,4 +47,11 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N971N
 PRODUCT_MANUFACTURER := samsung
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="d1xks-user 12 SP1A.210812.016 N971NKSU2HWH5 release-keys" \
+    BuildFingerprint=samsung/d1xks/d1x:12/SP1A.210812.016/N971NKSU2HWH5:user/release-keys \
+    DeviceName=d1x \
+    DeviceProduct=d1xks \
+    SystemName=d1xks
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
